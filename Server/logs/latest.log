@@ -1,0 +1,89 @@
+[12:00:00] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[12:00:00] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[12:00:00] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[12:00:11] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[12:00:37] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:00:38] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:68) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:76) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:67) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:288) ~[?:?]
+	at ard.a(SourceFile:37) ~[server-1.20.2.jar:?]
+	at ecg$c.<init>(SourceFile:419) ~[server-1.20.2.jar:?]
+	at ecg.d(SourceFile:398) ~[server-1.20.2.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:133) ~[server-1.20.2.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+er.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ajn$1.run(SourceFile:89) ~[server-1.20.2.jar:?]
+[12:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:00:39] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[12:00:39] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[12:00:39] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[12:00:54] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[12:01:13] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:01:13] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:68) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:76) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:67) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:288) ~[?:?]
+	at ard.a(SourceFile:37) ~[server-1.20.2.jar:?]
+	at ecg$c.<init>(SourceFile:419) ~[server-1.20.2.jar:?]
+	at ecg.d(SourceFile:398) ~[server-1.20.2.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:133) ~[server-1.20.2.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+er-Main-1/INFO]: Preparing spawn area: 0%
+[12:00:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:00:41] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[12:00:42] [Server thread/INFO]: Time elapsed: 13122 ms
+[12:00:42] [Server thread/INFO]: Done (19.708s)! For help, type "help"
+[12:00:58] [User Authenticator #1/INFO]: UUID of player Bob_946 is 8944e22a-5089-42ac-8e2b-5bd24c5372c7
+[12:00:59] [Server thread/INFO]: Bob_946[/127.0.0.1:50616] logged in with entity id 240 at (67.32562951535448, 45.0, 13.509826016674456)
+[12:00:59] [Server thread/INFO]: Bob_946 joined the game
+[12:01:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2348ms or 46 ticks behind
+[12:01:05] [Server thread/INFO]: Player_01 (/31.50.251.62:51681) lost connection: Disconnected
+[12:01:15] [Server thread/INFO]: Player_01 (/31.50.251.62:51684) lost connection: Disconnected
+[12:01:20] [Server thread/INFO]: Player_01 (/31.50.251.62:51686) lost connection: Disconnected
+[12:04:34] [Server thread/INFO]: Player_01 (/31.50.251.62:51762) lost connection: Disconnected
+[12:04:36] [Server thread/INFO]: Player_01 (/31.50.251.62:51764) lost connection: Disconnected
+[12:04:38] [Server thread/INFO]: Player_01 (/31.50.251.62:51765) lost connection: Disconnected
+[12:05:58] [Server thread/INFO]: Player_01 (/31.50.251.62:51806) lost connection: Disconnected
+[12:09:55] [Server thread/INFO]: Bob_946 lost connection: Disconnected
+[12:09:55] [Server thread/INFO]: Bob_946 left the game
+[12:27:49] [User Authenticator #2/INFO]: UUID of player Bob_946 is 8944e22a-5089-42ac-8e2b-5bd24c5372c7
+[12:27:49] [Server thread/INFO]: Bob_946[/127.0.0.1:50833] logged in with entity id 996 at (67.32562951535448, 45.0, 13.509826016674456)
+[12:27:49] [Server thread/INFO]: Bob_946 joined the game
+[12:29:25] [Server thread/INFO]: [Bob_946: Set the time to 6000]
+[12:30:21] [Server thread/INFO]: Bob_946 lost connection: Disconnected
+[12:30:21] [Server thread/INFO]: Bob_946 left the game
+[12:31:23] [User Authenticator #3/INFO]: UUID of player Bob_946 is 8944e22a-5089-42ac-8e2b-5bd24c5372c7
+[12:31:23] [Server thread/INFO]: Bob_946[/127.0.0.1:50842] logged in with entity id 1366 at (39.442767820676714, 71.0, -3.0576675900446526)
+[12:31:23] [Server thread/INFO]: Bob_946 joined the game
+[12:35:33] [Server thread/INFO]: [Bob_946: Gave 1 [Orange Wool] to Bob_946]
+[12:35:51] [Server thread/INFO]: [Bob_946: Gave 2 [Orange Wool] to Bob_946]
+[12:36:01] [Server thread/INFO]: Bob_946 has made the advancement [Sweet Dreams]
+[12:40:26] [Server thread/INFO]: Bob_946 was blown up by Creeper
+[12:40:31] [Server thread/INFO]: Bob_946 lost connection: Disconnected
+[12:40:31] [Server thread/INFO]: Bob_946 left the game
+[12:40:40] [Server thread/INFO]: Stopping the server
+[12:40:40] [Server thread/INFO]: Stopping server
+[12:40:40] [Server thread/INFO]: Saving players
+[12:40:40] [Server thread/INFO]: Saving worlds
+[12:40:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:40:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:40:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:40:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
